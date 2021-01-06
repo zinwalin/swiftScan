@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
     s.name         = 'swiftScan'
-    s.version      = '1.1.5'
+    s.version      = '1.2.4'
     s.summary      = 'ios swift scan wrapper'
-    s.homepage     = 'https://github.com/MxABC/swiftScan'
+    s.homepage     = 'https://github.com/zinwalin/swiftScan'
     s.license      = 'MIT'
-    s.authors      = {'MxABC' => 'lbxia20091227@foxmail.com'}
-    s.platform     = :ios, '8.0'
-    s.source       = {:git => 'https://github.com/MxABC/swiftScan.git', :tag => s.version}
-    s.ios.deployment_target = "8.0"
+    s.authors      = {'zinwalin' => 'zinwa.lin@gmail.com'}
+    s.platform     = :ios, '9.0'
+    s.source       = {:git => 'https://github.com/swiftScan/swiftScan.git', :tag => s.version}
+    s.ios.deployment_target = "9.0"
     s.source_files = 'Source/*.swift'
 end
